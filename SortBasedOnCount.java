@@ -64,9 +64,9 @@ public class SortBasedOnCount {
 		entity.add(e1);
 		entity.add(e2);
 		entity.add(e3);
-		entity.add(e4);
+		entity.add(e4);*/
 		Collections.sort(entity);
-		*/
+		
 		for(Entity en : entity) {
 			System.out.println(en.getDomain() + "  " + en.getCount());
 		}
